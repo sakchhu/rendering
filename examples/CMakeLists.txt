@@ -11,9 +11,4 @@ foreach(example ${ALL_EXAMPLES})
         sac.rendering.examples.${example}
         PRIVATE sac::rendering
     )
-    set_target_properties(
-        sac.rendering.examples.${example}
-        PROPERTIES 
-        CXX_STANDARD 23
-    )
 endforeach()

@@ -2,7 +2,6 @@
 
 #include <cstdlib>
 #include <fstream>
-#include <print>
 
 using namespace sac::rendering::image;
 
@@ -22,5 +21,5 @@ int main() {
     }
 
     std::ofstream file("random_noise.ppm");
-    std::print(file, "{}", image.render());
+    file << image.render();
 }

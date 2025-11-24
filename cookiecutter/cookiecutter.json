@@ -1,10 +1,10 @@
 {
-  "project_name": "my_project_name",
+  "project_name": "sac.rendering",
   "cpp_build_version": "26",
-  "paper": "PnnnnRr",
-  "owner": "github-user-name",
-  "description": "Short project description.",
-  "godbolt_link": "https://www.example.com",
+  "paper": "None",
+  "owner": "sakchhu",
+  "description": "Simple PPM library",
+  "godbolt_link": "",
   "_copy_without_render": [
     "infra",
     ".github/workflows"
